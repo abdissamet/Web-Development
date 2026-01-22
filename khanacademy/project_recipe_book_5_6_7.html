@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        body {
+            background-color:rgb(245, 245, 177);
+        }
+        #ernur {
+            color:rgb(68, 97, 35);
+        }
+        #contents {
+            color:rgb(68, 97, 35);
+        }
+        #First-Recipe {
+            color:rgb(68, 97, 35);
+        }
+        #recipe-1 {
+            background-color:rgb(199, 164, 22);
+        }
+        #beginning {
+            background-color:rgb(76, 212, 203);
+        }
+        #Sites-i-used {
+            color:rgb(68, 97, 35);
+        }
+        #recipe-2 {
+            background-color:rgb(121, 173, 126);
+        }
+        #finish {
+            background-color: rgb(204, 133, 204);
+        }
+        </style>
+    </head>
+    <body>
+       
+        <h1 id="ernur">Ernur's Recipe Book</h1>
+        
+        <h2 id="contents">Contents:</h2>
+        
+        <ol>
+            <li><a href="https://www.bbcgoodfood.com/recipes/pan-fried-camembert-sandwich">Pan-fried camembert sandwich
+                <img src="data:image/jpeg;base64,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" width="200" height="100" alt="Photo of a pan-fried camembert sandwich">
+            </a>
+            </li>
+            <li><a href="https://www.thepioneerwoman.com/food-cooking/recipes/a11497/macaroni-cheese/">Macaroni and Cheese
+                <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F03%2F19%2F238691-Simple-Macaroni-And-Cheese-mfs_006.jpg&w=160&q=60&c=sc&poi=auto&orient=true&h=90"
+            width="200" height="100"alt="Photo of macaroni and cheese">
+            </a></li>
+        </ol>
+        
+        <h2 id="First-Recipe">Recipe #1</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th id="beginning">Ingredients</th>
+                    <th id="beginning">Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="recipe-1">White bread</td>
+                    <td id="recipe-1">2 thick slices</td>
+                </tr>
+                                <tr>
+                    <td id="recipe-1">Wedge of camembert
+or brie</td>
+                    <td id="recipe-1">about 85g/3oz</td>
+                </tr>
+                <tr>
+                    <td id="recipe-1">Balsamic vinegar</td>
+                    <td id="recipe-1">A few drops</td>
+                                    <tr>
+                    <td id="recipe-1">Cranberry</td>
+                    <td id="recipe-1">A spoonful</td>
+                </tr>
+                </tr>
+                <tr>
+                    <td id="recipe-1">Butter</td>
+                    <td id="recipe-1">As you wish</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong><h4> Butter the bread. Put a wedge of camembert or brie on the unbuttered side of one slice of bread. Top with a spoonful of cranberry sauce. Drizzle with a few drops of balsamic vinegar, if you have some.</h4>
+</p>
+        <p><strong>Step 2:</strong> <h4> Put the second slice of bread on top, buttered side out. Fry in a hot non-stick pan, pressing down with a fish slice, for a minute or two on each side, until golden brown and melting. Cut in half and eat straigh away.</h4></p>
+        <h2 id="Sites-i-used">Two sites I used:</h2>
+    <ol>
+    <li><em> <a href="https://www.thepioneerwoman.com/">thepioneerwoman</a></em></li>
+    <li><em> <a href="https://www.bbcgoodfood.com/">goodFOOD</a></em></li>
+    </ol>
+    <h2 id="Second-Recipe">Recipe #2</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th id="finish">Ingredients</th>
+                    <th id="finish">Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="recipe-2">Dried macaroni</td>
+                    <td id="recipe-2">4 cups</td>
+                </tr>
+                <tr>
+                    <td id="recipe-2">Egg</td>
+                    <td id="recipe-2">1</td>
+                </tr>
+                <tr>
+                    <td id="recipe-2">Salted butter</td>
+                    <td id="recipe-2">1/4 cup</td>
+                <tr>
+                    <td id="recipe-2">All-purpose flour</td>
+                    <td id="recipe-2">1/4 cup</td>
+                </tr>
+                </tr>
+                <tr>
+                    <td id="recipe-2">Whole milk</td>
+                    <td id="recipe-2">2 1/2 cups</td>
+                </tr>
+                <tr>
+                    <td id="recipe-2">Dry mustard    </td>
+                    <td id="recipe-2">2 heaping tsp, plus more to taste</td>
+                </tr>
+                <tr>
+                    <td id="recipe-2">Cheese (cheddar, jack, fontina), grated</td>
+                    <td id="recipe-2">1 lb</td>
+                </tr>
+                <tr>
+                    <td id="recipe-2">Kosher salt</td>
+                    <td id="recipe-2">1/2 tsp, more to taste</td>
+                </tr>
+                <tr>
+                    <td id="recipe-2">Ground black pepper</td>
+                    <td id="recipe-2">1/2 tsp</td>
+                </tr>
+                
+                
+            </tbody>
+        </table>
+        <p><strong>Step 1:</strong> <h4>Beat the egg in a small bowl.</h4></p>
+        <p><strong>Step 3:</strong> <h4>Melt the butter in a large pot and sprinkle in the flour. Whisk together over medium-low heat. Cook the mixture for 5 minutes, whisking constantly. Don't let it burn. Pour in the milk, add the mustard, and whisk until smooth. Cook for 5 minutes until very thick. Reduce the heat to low.</h4> </p>
+        <p><strong>Step 4:</strong> <h4>Take 1/4 cup of the sauce and slowly pour it into the beaten egg, whisking constantly to avoid cooking the egg. Whisk together till smooth..</h4> </p>
+        <p><strong>Step 5:</strong> <h4>Pour the egg mixture into the sauce, whisking constantly. Stir until smooth. Add in the cheese and stir to melt. Add the salt, seasoned salt, pepper, and other optional seasonings. Taste the sauce, adding more salt and seasoned salt as needed. (Do not under-salt!) Pour in the drained, cooked macaroni and stir to combine. Pour into a buttered baking dish, top with extra cheese, and bake at 350°F for 20 to 25 minutes, then serve.</h4> </p>
+    </body>
+</html>
